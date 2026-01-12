@@ -1,0 +1,180 @@
+
+/* Imports */
+
+
+/* Use import to split up your CSS into manageable chunks */
+@import url("./_reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./_variables.css");
+/* Feel free to add as many of these imports as you need */
+
+
+
+
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+body {
+  background-color: var(--primary-gray);
+}
+
+main {
+  margin: var(--main-margin);
+  width: var(--content-width);
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+/* Header + Footer */
+
+
+header,
+footer {
+  background-color: var(--primary-green);
+  height: var(--header-footer-height);
+  display: flex;
+  align-items: center;
+}
+
+.header-content,
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: var(--content-width);
+  margin: var(--content-margin);
+}
+
+nav > a,
+.footer-content > a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 40px;
+  font-family: var(--font-main), sans-serif;
+}
+
+.footer-content > a {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-content {
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  height: 50%;
+}
+
+
+.logo {
+  width: 167.14px;
+  height: 90px;
+  background-color: var(--primary-white);
+  padding: 0.1em;
+  border-radius: 7px;
+}
+
+.searchbar-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 38%;
+  height: 50%;
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+  border: solid 3px var(--primary-black);
+  border-radius: 33px;
+  text-align: center;
+}
+
+.searchbar-placeholder {
+  font-family: var(--font-secondary), sans-serif;
+  font-size: 16px;
+  color: var(--primary-dark-gray);
+  text-align: center;
+}
+
+.search-icon {
+  width: 5%;
+}
+
+.search-icon,
+.searchbar-placeholder {
+  margin: 0 0.4em;
+}
+
+.shopping-cart-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 4%;
+  height: 80%;
+}
+
+.shopping-cart {
+  width: 90%;
+}
+
+
+
+
+
+
+
+/* Index (Home) page */
+
+
+.hero-images,
+.best-sellers {
+  /* Move together with header/footer sections later */
+  display: flex;
+  justify-content: space-between;
+  margin: var(--content-margin);
+}
+
+.hero-image-container {
+  width: 45%;
+}
+
+.hero-image-guy,
+.hero-image-girl {
+  border: solid 3px var(--primary-black);
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

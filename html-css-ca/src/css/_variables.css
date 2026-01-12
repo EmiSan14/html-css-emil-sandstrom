@@ -1,0 +1,22 @@
+/* Use this file to store your useful variables */
+/* This could be colors, fonts, or padding sizes! */
+
+:root {
+  --primary-green: #0a3641;
+  --primary-gray: #e9e9e9;
+  --primary-dark-gray: #49454f;
+  --primary-white: #fff;
+  --primary-black: #000;
+  --hero-text: #cd904b;
+  --availability-green: #00fe08;
+
+  --font-main: "Fjalla One";
+  --font-secondary: "Libre Baskerville";
+
+  --main-margin: 4em auto;
+  --content-margin: auto;
+  --content-width: 90%;
+  --header-footer-height: 7.5em;
+
+  --standard-border-radius: 7px;
+}
