@@ -7,16 +7,36 @@
   --primary-dark-gray: #49454f;
   --primary-white: #fff;
   --primary-black: #000;
-  --hero-text: #cd904b;
+  --hero-text: #6DFC94;
   --availability-green: #00fe08;
 
   --font-main: "Fjalla One";
   --font-secondary: "Libre Baskerville";
+  --font-fallback: sans-serif;
+  --font-size-searchbar-placeholder: 16px;
+  --font-size-h2-home: 48px;
+  --font-size-cta-home: 22px;
+  --font-size-best-sellers-brand: #;
+  --font-size-best-sellers-model: #;
+  --font-size-best-sellers-price: 12px;
+  --font-size-best-sellers-availability: 10px;
 
   --main-margin: 4em auto;
   --content-margin: auto;
   --content-width: 90%;
   --header-footer-height: 7.5em;
 
+  --standard-border-style: solid;
+  --standard-border-width: 3px;
   --standard-border-radius: 7px;
+
+  /* Home */
+
+  --max-height-home-hero: 402.333px;
+  --home-gridbox-grid-margin: 1em;
+
+
+  /* Products */
+
+  --product-dividing-line: 2px;
 }
