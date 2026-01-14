@@ -13,15 +13,23 @@
   --font-main: "Fjalla One";
   --font-secondary: "Libre Baskerville";
   --font-fallback: sans-serif;
+  --font-size-header-footer-pageheading: 40px;
   --font-size-searchbar-placeholder: 16px;
+  --font-size-breadcrumbs: 18px;
   --font-size-h2-home: 48px;
   --font-size-cta-home: 22px;
-  --font-size-best-sellers-brand: #;
-  --font-size-best-sellers-model: #;
-  --font-size-best-sellers-price: 12px;
-  --font-size-best-sellers-availability: 10px;
+  --font-size-product-brand: 18px;
+  --font-size-product-model: 12px;
+  --font-size-product-price: 14px;
+  --font-size-product-availability: 12px;
 
-  --main-margin: 4em auto;
+  --font-size-p-d-brand: 30px;
+  --font-size-p-d-model: 24px;
+  --font-size-p-d-description: 24px;
+  --font-size-p-d-price: 30px;
+  --font-size-p-d-availability-text: 16px;
+  
+  --main-margin: 1em auto 4em auto;
   --content-margin: auto;
   --content-width: 90%;
   --header-footer-height: 7.5em;
