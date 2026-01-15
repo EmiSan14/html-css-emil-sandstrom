@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="rainydays-page under construction" />
-    <title>Rainydays | Placeholder</title>
+    <meta name="description" content="rainydays cart-page" />
+    <title>Rainydays | Cart</title>
     <link rel="stylesheet" href="src/css/styles.css" />
   </head>
 
@@ -14,7 +14,7 @@
       <nav class="header-content">
         <a class="logo" href="index.html"><img src="assets/images/rainydays-logo.png" alt="rainydays logo"></a>
         <a href="products.html">products</a>
-        <div class="searchbar-div">
+        <div class="searchbar-div" role="search" tabindex="0">
           <p class="searchbar-placeholder">search between thousands of products (placeholder)</p>
           <img class="search-icon" src="assets/images/search.png" alt="search-icon">
         </div>
@@ -24,7 +24,57 @@
     </header>
 
     <main>
-      <h1>Coming soon</h1>
+
+      <ul class="breadcrumbs" aria-label="breadcrumb-navigation">
+        <li><a href="index.html" aria-label="navigation back to home-page">home</a></li>
+        <li><a href="products.html" aria-label="navigation back to products-page">products</a></li>
+        <li><a href="product-description.html" 
+        aria-label="navigation back to previous product">product-description</a></li>
+        <li class="active"><a href="cart.html" 
+        aria-label="you are on the cart-page">cart</a></li>
+      </ul>
+
+      <section class="section-container" tabindex="0">
+        <h1 class="h1" tabindex="0">Cart</h1>
+        
+        <div class="cart-items" aria-label="cart items" tabindex="0">
+          <div class="product-item" id="product-item-cart" tabindex="0">
+
+            <div class="product-image-box" id="product-image-box-cart">
+              <img src="assets/images/rainydays-jacket-orange.jpg" 
+              alt="heavy duty jacket with orange arm, shoulder and neck parts, while the torso and below is gray."
+              aria-label="cart item image" tabindex="0">
+            </div>
+    
+            <div id="hgroup-description-cart" aria-label="cart item description" tabindex="0">
+              <hgroup class="hgroup-product" id="hgroup-cart">
+
+                <h4 class="product-brand" id="product-brand-cart" tabindex="0">firstwatch</h4>
+                <p class="product-model" id="product-model-cart" tabindex="0">hi-vis-jacket</p>
+                <p class="product-size" tabindex="0">size: l</p>
+                <p class="product-price" id="product-price-cart" tabindex="0">$200</p>
+
+              </hgroup>
+          </div>  
+
+          </div>
+
+          <div class="trash">
+            <img src="assets/images/trashcan.png" alt="placeholder for trashcan/remove item"
+            tabindex="0">
+          </div>
+        </div>
+
+        <p class="total-cart" tabindex="0">total: $200</p>
+
+        <button class="button-cart">
+          <a id="button-cart-text" href="checkout.html" aria-label="proceed to checkout">proceed to checkout</a>
+        </button>
+
+       
+
+      </section>  
+
     </main>
 
     <footer>

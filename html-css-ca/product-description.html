@@ -14,7 +14,7 @@
       <nav class="header-content">
         <a class="logo" href="index.html"><img src="assets/images/rainydays-logo.png" alt="rainydays logo"></a>
         <a href="products.html">products</a>
-        <div class="searchbar-div">
+        <div class="searchbar-div" role="search" tabindex="0">
           <p class="searchbar-placeholder">search between thousands of products (placeholder)</p>
           <img class="search-icon" src="assets/images/search.png" alt="search-icon">
         </div>
@@ -34,29 +34,32 @@
       </ul>
 
       <section class="product-specific">
-        <div class="product-specific-image-container" aria-label="picture showing the product">
+        <div class="product-specific-image-container" aria-label="picture showing the product" tabindex="0">
           <img src="assets/images/rainydays-jacket-orange.jpg" 
-          alt="heavy duty jacket with orange arm, shoulder and neck parts, while the torso and below is gray.">
+          alt="heavy duty jacket with orange arm, shoulder and neck parts, while the torso and below is gray."
+          tabindex="0">
         </div>
 
-        <div class="product-information-container" aria-label="product information, sizes, and add to cart button">
+        <div class="product-information-container" aria-label="product information, sizes, and add to cart button"
+        tabindex="0">
 
         
-          <hgroup class="product-specific-description-container">
+          <hgroup class="product-specific-description-container" aria-label="product information, sizes and availability" 
+          tabindex="0">
 
-            <h2 class="p-d-brand">firstwatch</h2>
-            <p class="p-d-model">hi-vis-jacket</p>
+            <h2 class="p-d-brand" tabindex="0">firstwatch</h2>
+            <p class="p-d-model" tabindex="0">hi-vis-jacket</p>
             <hgroup>
-              <h3 class="p-d-description">description:</h3>
-              <p>
+              <h3 class="p-d-description" tabindex="0">description:</h3>
+              <p tabindex="0">
                 This jacket from Firstwatch is made for durability. Whether it's for climbing the highest peaks, 
                 or sailing the stormiest seas in heavy rainshowers, this hi-visibility jacket will shield you from the elements.
               </p>
             </hgroup>
 
-            <div class="p-d-availability">
-              <p class="p-d-price">£200</p>
-              <p class="p-d-availability-text">in-stock: <span class="p-d-availability-circle">
+            <div class="p-d-availability" aria-label="price and availability">
+              <p class="p-d-price" tabindex="0">£200</p>
+              <p class="p-d-availability-text" tabindex="0">in-stock: <span class="p-d-availability-circle">
               <img src="assets/images/green-circle-emoji.jpg"></span>
               </p>
             </div>
@@ -64,7 +67,7 @@
           </hgroup>
           
           <div class="product-sizes-and-button">
-            <label for="sizes"></label>
+            <label for="sizes" aria-label="sizes"></label>
             <select name="sizes" id="sizes">
               <option value="small">small</option>
               <option value="small">medium</option>
@@ -72,8 +75,8 @@
               <option value="small">extra large</option>
             </select>
 
-            <button>
-              <a href="cart.html" aria-label="add item to cart">add to cart</a>
+            <button id="button-p-d">
+              <a id="button-p-d-text" href="cart.html" aria-label="add item to cart">add to cart</a>
             </button>
           </div>
 

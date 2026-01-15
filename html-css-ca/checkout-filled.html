@@ -39,7 +39,7 @@
       <section id="section-container-checkout" class="section-container">
         <h1 class="h1" tabindex="0">Checkout</h1>
 
-        <form class="form-checkout">
+        <form id="form-checkout-filled" class="form-checkout">
 
           <label for="name">name:</label>
           <label for="lastname">last name:</label>
@@ -68,9 +68,9 @@
             <option value="paypal">paypal</option>
           </select>
 
-          <!-- <input type="submit" value="Finish Order" id="submit-checkout"> -->
-          <button class="submit-checkout">
-            <a class="a-checkout" href="card-details.html" aria-label="go to card details">card details</a>
+          <!-- <input type="submit" value="Finish Order" id="submit-checkout"> --> 
+          <button class="submit-checkout" id="button-checkout-filled">
+            <a id="s-p-button" href="purchase-successful.html" aria-label="finish order">finish order</a>
           </button>
 
         </form>

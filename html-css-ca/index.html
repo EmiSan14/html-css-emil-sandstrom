@@ -11,20 +11,19 @@
   <body>
 
     <header>
-
       <nav class="header-content">
         <a class="logo" href="index.html"><img src="assets/images/rainydays-logo.png" alt="rainydays logo"></a>
-
         <a href="products.html">products</a>
 
-        <div class="searchbar-div">
+        <div class="searchbar-div" role="search" tabindex="0">
           <p class="searchbar-placeholder">search between thousands of products (placeholder)</p>
           <img class="search-icon" src="assets/images/search.png" alt="search-icon">
         </div>
 
         <a class="shopping-cart-container" href="cart-page.html" aria-label="go to cart">
-
-        <img class="shopping-cart" src="assets/images/cart-white-2.png" alt="shopping-cart icon"></a>
+          <img class="shopping-cart" src="assets/images/cart-white-2.png" alt="shopping-cart icon" 
+          aria-label="shopping-cart placeholder">
+        </a>
       </nav>
 
     </header>
@@ -35,7 +34,7 @@
 
       <section class="hero-images">
 
-        <div class="hero-image-container">
+        <div class="hero-image-container" tabindex="0">
           <img class="hero-image-guy" src="assets/images/hero-image-guy.jpg" alt="Guy in camo jacket looking out at mountains">
 
           <div class="box-home" id="left-box-home">
@@ -43,12 +42,14 @@
               <h2 class="h2-home">Made to face challenges</h2>
             </div>
             
-            <a id="left-cta-home" class="cta-home" href="products.html" aria-label="go to products-page">shop</a>
+            <button id="left-cta-home" class="cta-home">
+              <a class="cta-home-a" href="products.html" aria-label="go to products-page">shop</a>
+            </button>
           </div>
         </div>
 
 
-        <div class="hero-image-container">
+        <div class="hero-image-container" tabindex="0">
           <img class="hero-image-girl" src="assets/images/hero-image-girl.jpg" 
           alt="Girl in green puffy jacket standing on snow next to clear blue lake">
 
@@ -57,7 +58,9 @@
               <h2 class="h2-home">Created for discovery</h2>
             </div>
 
-            <a id="right-cta-home" class="cta-home" href="products.html" aria-label="go to products-page">shop</a>
+            <button id="right-cta-home" class="cta-home">
+              <a class="cta-home-a" href="products.html" aria-label="go to products-page">shop</a>
+            </button>
           </div>
           
         </div>
@@ -65,28 +68,31 @@
 
       <section class="best-sellers">
 
-        <h3 class="best-sellers-heading">Best-sellers</h3>
+        <h3 class="best-sellers-heading" id="best-sellers-heading">Best-sellers</h3>
 
         <div class="products-homepage">
 
           <!-- Item 1 -->
 
-          <a class="product-item" href="product-description.html">
+          <a class="product-item" href="product-description.html" aria-label="product">
 
-            <div class="product-image-box">
+            <div class="product-image-box" aria-label="product-image">
               <img src="assets/images/rainydays-jacket-orange.jpg" 
               alt="heavy duty jacket with orange arm, shoulder and neck parts, while the torso and below is gray.">
             </div>
     
-            <!-- Think of what tag to use here to group description. Maybe <hgroup>? -->
-            <hgroup class="hgroup-product">
+            <hgroup class="hgroup-product" aria-label="product basic-info">
               <h4 class="product-brand">firstwatch</h4>
               <p class="product-model">hi-vis-jacket</p>
 
               <div class="bottom-product-info">
                 <p class="product-price">$200</p>
-                <p class="availability-text">in-stock: <span class="availability-circle"><img
-                src="assets/images/green-circle-emoji.jpg" alt="in stock"></span></p>
+                <p class="availability-text">in-stock: 
+                  <span class="availability-circle">
+                    <img src="assets/images/green-circle-emoji.jpg" alt="in stock" 
+                    aria-label="placeholder for circle indicating product availability">
+                  </span>
+                </p>
               </div>
 
             </hgroup>  
@@ -95,21 +101,25 @@
 
           <!-- Item 2 -->
 
-          <a class="product-item" href="product-description.html">
+          <a class="product-item" href="site-placeholder.html" aria-label="product">
 
-            <div class="product-image-box">
+            <div class="product-image-box" aria-label="product-image">
               <img src="assets/images/rainydays-jacket-scott-black.jpg" 
               alt="Black shell jacket with white details on arms and torso, with a yellow logo and yellow pocket zipper">
             </div>
     
-            <hgroup class="hgroup-product">
+            <hgroup class="hgroup-product" aria-label="product basic-info">
               <h4 class="product-brand">scott</h4>
               <p class="product-model">explorer black</p>
 
               <div class="bottom-product-info">
                 <p class="product-price">$130</p>
-                <p class="availability-text">in-stock: <span class="availability-circle"><img
-                src="assets/images/green-circle-emoji.jpg" alt="in stock"></span></p>
+                <p class="availability-text">in-stock: 
+                  <span class="availability-circle">
+                    <img src="assets/images/green-circle-emoji.jpg" alt="in stock" 
+                    aria-label="placeholder for circle indicating product availability">
+                  </span>
+                </p>
               </div>
 
             </hgroup>  
@@ -118,21 +128,25 @@
 
           <!-- Item 3 -->
 
-          <a class="product-item" href="product-description.html">
+          <a class="product-item" href="site-placeholder.html" aria-label="product">
 
-            <div class="product-image-box">
+            <div class="product-image-box" aria-label="product-image">
               <img src="assets/images/rainydays-jacket-red.jpg" 
               alt="red shelljacket with black sections on side of torso and under arms. black zipper area">
             </div>
     
-            <hgroup class="hgroup-product">
+            <hgroup class="hgroup-product" aria-label="product basic-info">
               <h4 class="product-brand">rainydays</h4>
               <p class="product-model">shelljacket red</p>
 
               <div class="bottom-product-info">
                 <p class="product-price">$95</p>
-                <p class="availability-text">in-stock: <span class="availability-circle"><img
-                src="assets/images/green-circle-emoji.jpg" alt="in stock"></span></p>
+                <p class="availability-text">in-stock: 
+                  <span class="availability-circle">
+                    <img src="assets/images/green-circle-emoji.jpg" alt="in stock" 
+                    aria-label="placeholder for circle indicating product availability">
+                  </span>
+                </p>
               </div>
 
             </hgroup>  
@@ -141,21 +155,25 @@
 
           <!-- Item 4 -->
 
-          <a class="product-item" href="product-description.html">
+          <a class="product-item" href="site-placeholder.html" aria-label="product">
 
-            <div class="product-image-box">
+            <div class="product-image-box" aria-label="product-image">
               <img src="assets/images/rainydays-jacket-7-fleece.jpg" 
               alt="Moss-green fleece with 2 pockets on lower torso">
             </div>
     
-            <hgroup class="hgroup-product">
+            <hgroup class="hgroup-product" aria-label="product basic-info">
               <h4 class="product-brand">patagonia</h4>
               <p class="product-model">fleece green</p>
 
               <div class="bottom-product-info">
                 <p class="product-price">$75</p>
-                <p class="availability-text">in-stock: <span class="availability-circle"><img
-                src="assets/images/green-circle-emoji.jpg" alt="in stock"></span></p>
+                <p class="availability-text">in-stock: 
+                  <span class="availability-circle">
+                    <img src="assets/images/green-circle-emoji.jpg" alt="in stock" 
+                    aria-label="placeholder for circle indicating product availability">
+                  </span>
+                </p>
               </div>
 
             </hgroup>  
@@ -164,21 +182,25 @@
 
           <!-- Item 5 -->
 
-          <a class="product-item" href="product-description.html">
+          <a class="product-item" href="site-placeholder.html" aria-label="product">
 
-            <div class="product-image-box">
+            <div class="product-image-box" aria-label="product-image">
               <img src="assets/images/rainydays-jacket-scott-gray.jpg" 
               alt="dark gray windbreaker jacket with mesh pattern and small light gray details up clavicular section.">
             </div>
     
-            <hgroup class="hgroup-product">
+            <hgroup class="hgroup-product" aria-label="product basic-info">
               <h4 class="product-brand">scott</h4>
               <p class="product-model">windbreaker gray</p>
 
               <div class="bottom-product-info">
                 <p class="product-price">$105</p>
-                <p class="availability-text">in-stock: <span class="availability-circle"><img
-                src="assets/images/green-circle-emoji.jpg" alt="in stock"></span></p>
+                <p class="availability-text">in-stock: 
+                  <span class="availability-circle">
+                    <img src="assets/images/green-circle-emoji.jpg" alt="in stock" 
+                    aria-label="placeholder for circle indicating product availability">
+                  </span>
+                </p>
               </div>
 
             </hgroup>  

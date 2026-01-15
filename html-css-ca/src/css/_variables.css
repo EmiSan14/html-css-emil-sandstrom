@@ -2,6 +2,9 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
+
+  /* Colors */
+
   --primary-green: #0a3641;
   --primary-gray: #e9e9e9;
   --primary-dark-gray: #49454f;
@@ -10,12 +13,32 @@
   --hero-text: #6DFC94;
   --availability-green: #00fe08;
 
+  /* Fonts */
+
   --font-main: "Fjalla One";
   --font-secondary: "Libre Baskerville";
   --font-fallback: sans-serif;
+
+  /* Font-sizes */
+
+
+  /* Header, Footer, Breadcrumbs */
   --font-size-header-footer-pageheading: 40px;
   --font-size-searchbar-placeholder: 16px;
   --font-size-breadcrumbs: 18px;
+
+  /* H,F,B Media Queries */
+
+  --font-size-hfb-small: 20px;
+
+
+
+  /* Font-sizes */
+
+
+
+  /* Home / Products */
+
   --font-size-h2-home: 48px;
   --font-size-cta-home: 22px;
   --font-size-product-brand: 18px;
@@ -23,16 +46,53 @@
   --font-size-product-price: 14px;
   --font-size-product-availability: 12px;
 
+  /* Media Queries */
+
+  --font-size-h2-home-small: 26px;
+  --font-size-cta-home-small: 20px;
+  --font-size-product-brand-small: 14px;
+  --font-size-product-model-small: 10px;
+  --font-size-product-price-small: 12px;
+  --font-size-product-availability-small: 10px;
+
+
+
+  /* Product-description */
+
   --font-size-p-d-brand: 30px;
   --font-size-p-d-model: 24px;
   --font-size-p-d-description: 24px;
   --font-size-p-d-price: 30px;
   --font-size-p-d-availability-text: 16px;
+
+  --font-size-brand-cart: 26px;
+  --font-size-model-cart: 20px;
+  --font-size-size-cart: 26px;
+  --font-size-price-cart: 24px;
+
+  --font-size-button-checkout: 40px;
+
+  --font-size-brand-s-p: 22px;
+  --font-size-model-s-p: 18px;
+  --font-size-size-s-p: 22px;
+  --font-size-price-s-p: 20px;
   
+  /* Margins + Padding */
+
   --main-margin: 1em auto 4em auto;
   --content-margin: auto;
   --content-width: 90%;
   --header-footer-height: 7.5em;
+  --standard-padding: 2em;
+
+  /* Media Queries */
+
+  --header-footer-height-small: 5em;
+
+
+
+
+  /* Borders */
 
   --standard-border-style: solid;
   --standard-border-width: 3px;
