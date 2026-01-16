@@ -31,16 +31,18 @@
 
   --font-size-hfb-small: 20px;
 
+  --font-size-hfb-medium: 26px;
+  --font-size-searchbar-placeholder-medium: 12px;
+  --font-size-breadcrumbs-medium: 20px;
 
-
-  /* Font-sizes */
+  --font-size-hfb-1100: 30px;
 
 
 
   /* Home / Products */
 
   --font-size-h2-home: 48px;
-  --font-size-cta-home: 22px;
+  --font-size-cta-home: 26px;
   --font-size-product-brand: 18px;
   --font-size-product-model: 12px;
   --font-size-product-price: 14px;
@@ -56,6 +58,16 @@
   --font-size-product-availability-small: 10px;
 
 
+  --font-size-h2-home-medium: 40px;
+  --font-size-product-brand-medium: 24px;
+  --font-size-product-model-medium: 20px;
+  --font-size-product-price-medium: 22px;
+  --font-size-product-availability-medium: 20px;
+
+  --font-size-h2-home-1100: 34px;
+  --font-size-cta-home-1100: 22px;
+
+
 
   /* Product-description */
 
@@ -65,17 +77,54 @@
   --font-size-p-d-price: 30px;
   --font-size-p-d-availability-text: 16px;
 
+
+  /* Media Queries */
+
+  --font-size-p-d-description-text-small: 12px;
+
+
+
+  /* Cart */
+
   --font-size-brand-cart: 26px;
   --font-size-model-cart: 20px;
   --font-size-size-cart: 26px;
   --font-size-price-cart: 24px;
 
+
+  /* Media Queries */
+
+  --font-size-brand-cart-1100: 18px;
+  --font-size-model-cart-1100: 14px;
+  --font-size-size-cart-1100: 18px;
+  --font-size-price-cart-1100: 16px;
+
+
+
+
+
+  /* Checkout */
+
   --font-size-button-checkout: 40px;
+
+
+  /* Successful Purchase */
 
   --font-size-brand-s-p: 22px;
   --font-size-model-s-p: 18px;
   --font-size-size-s-p: 22px;
   --font-size-price-s-p: 20px;
+
+
+  /* Media Queries */
+
+  --font-size-brand-s-p-1290: 15px;
+  --font-size-model-s-p-1290: 12px;
+  --font-size-size-s-p-1290: 14px;
+  --font-size-price-s-p-1290: 14px;
+
+
+
   
   /* Margins + Padding */
 
@@ -102,6 +151,18 @@
 
   --max-height-home-hero: 402.333px;
   --home-gridbox-grid-margin: 1em;
+
+  /* Media Queries */
+
+  --max-height-home-hero-medium: 225px;
+
+  --max-height-home-hero-1100: 277px;
+
+  --max-height-home-hero-1290: 346px;
+
+  --max-height-home-hero-1550: 514px;
+
+  --max-height-home-hero-1900: 600px;
 
 
   /* Products */

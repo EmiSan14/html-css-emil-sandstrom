@@ -41,26 +41,26 @@
 
         <form id="form-checkout-filled" class="form-checkout">
 
-          <label for="name">name:</label>
-          <label for="lastname">last name:</label>
+          <label class="name-label" for="name">name:</label>
+          <label class="lastname-label" for="lastname">last name:</label>
           <input type="text" id="name" name="name">
           <input type="text" id="lastname" name="lastname">
 
-          <label for="email">e-mail:</label>
+          <label class="email-label" for="email">e-mail:</label>
           <input type="email" id="email" name="email">
 
-          <label for="country">country:</label>
-          <label for="city">city:</label>
+          <label class="country-label" for="country">country:</label>
+          <label class="city-label" for="city">city:</label>
           <input type="text" id="country" name="country">
           <input type="text" id="city" name="city">
 
-          <label for="address">address:</label>
-          <label for="state-or-county">state/county:</label>
+          <label class="address-label" for="address">address:</label>
+          <label class="state-or-county-label" for="state-or-county">state/county:</label>
           <input type="text" id="address" name="address">
           <input type="text" id="state-or-county" name="state-or-county">
 
-          <label for="zipcode">zip-code:</label>
-          <label for="payment-option">payment-option:</label>
+          <label class="zipcode-label" for="zipcode">zip-code:</label>
+          <label class="payment-option-label" for="payment-option">payment-option:</label>
           <input type="number" id="zipcode" name="zipcode" min="1" max="999999">
           <select class="payment-option" name="payment-option" id="payment-option">
             <option value="visa">visa</option>
@@ -70,7 +70,7 @@
 
           <!-- <input type="submit" value="Finish Order" id="submit-checkout"> --> 
           <button class="submit-checkout" id="button-checkout-filled">
-            <a id="s-p-button" href="purchase-successful.html" aria-label="finish order">finish order</a>
+            <a id="a-checkout-filled" href="purchase-successful.html" aria-label="finish order">finish order</a>
           </button>
 
         </form>

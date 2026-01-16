@@ -41,27 +41,27 @@
 
         <form class="form-checkout">
 
-          <label for="name">name:</label>
-          <label for="lastname">last name:</label>
-          <input type="text" id="name" name="name">
-          <input type="text" id="lastname" name="lastname">
+          <label class="name-label" for="name">name:</label>
+          <label class="lastname-label" for="lastname">last name:</label>
+          <input type="text" id="name" name="name" required aria-required="true">
+          <input type="text" id="lastname" name="lastname" required aria-required="true">
 
-          <label for="email">e-mail:</label>
-          <input type="email" id="email" name="email">
+          <label class="email-label" for="email">e-mail:</label>
+          <input type="email" id="email" name="email" required aria-required="true">
 
-          <label for="country">country:</label>
-          <label for="city">city:</label>
-          <input type="text" id="country" name="country">
-          <input type="text" id="city" name="city">
+          <label class="country-label" for="country">country:</label>
+          <label class="city-label" for="city">city:</label>
+          <input type="text" id="country" name="country" required aria-required="true">
+          <input type="text" id="city" name="city" required aria-required="true">
 
-          <label for="address">address:</label>
-          <label for="state-or-county">state/county:</label>
-          <input type="text" id="address" name="address">
-          <input type="text" id="state-or-county" name="state-or-county">
+          <label class="address-label" for="address">address:</label>
+          <label class="state-or-county-label" for="state-or-county">state/county:</label>
+          <input type="text" id="address" name="address" required aria-required="true">
+          <input type="text" id="state-or-county" name="state-or-county" required aria-required="true">
 
-          <label for="zipcode">zip-code:</label>
-          <label for="payment-option">payment-option:</label>
-          <input type="number" id="zipcode" name="zipcode" min="1" max="999999">
+          <label class="zipcode-label" for="zipcode">zip-code:</label>
+          <label class="payment-option-label" for="payment-option">payment-option:</label>
+          <input type="number" id="zipcode" name="zipcode" min="1" max="999999" required aria-required="true">
           <select class="payment-option" name="payment-option" id="payment-option">
             <option value="visa">visa</option>
             <option value="mastercard">mastercard</option>
