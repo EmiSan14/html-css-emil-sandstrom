@@ -10,6 +10,10 @@
 
 
 
+
+/* Decided to keep everything in one place */
+
+
 :root {
 
   /* Colors */
@@ -27,6 +31,8 @@
   --font-main: "Fjalla One";
   --font-secondary: "Libre Baskerville";
   --font-fallback: sans-serif;
+
+
 
   /* Font-sizes */
 
@@ -179,6 +185,10 @@
   --product-dividing-line: 2px;
 }
 
+
+
+
+/* Basic */
 
 
 
