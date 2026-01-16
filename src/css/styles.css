@@ -1,13 +1,4 @@
 
-/* Imports */
-
-
-/* Use import to split up your CSS into manageable chunks */
-@import url("_reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
-@import url("_variables.css");
-/* Feel free to add as many of these imports as you need */
 
 
 
@@ -190,7 +181,15 @@
 
 
 
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
   background-color: var(--primary-gray);
 }
 
