@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,64 +9,123 @@
   </head>
 
   <body>
-
     <header>
       <nav class="header-content">
-
-        <a class="logo" href="index.html"><img src="assets/images/rainydays-logo.png" alt="rainydays logo"></a>
-        <a href="products.html">products</a>
+        <a class="logo" href="index.html"
+          ><img src="assets/images/rainydays-logo.png" alt="rainydays logo"
+        /></a>
+        <a class="header-link" href="products.html">products</a>
 
         <div class="searchbar-div" role="search" tabindex="0">
-          <p class="searchbar-placeholder">search between thousands of products (placeholder)</p>
-          <img class="search-icon" src="assets/images/search.png" alt="search-icon">
+          <p class="searchbar-placeholder">search</p>
+          <img
+            class="search-icon"
+            src="assets/images/search.png"
+            alt="search-icon"
+          />
         </div>
 
-        <a class="shopping-cart-container" href="cart-page.html" aria-label="go to cart">
-        <img class="shopping-cart" src="assets/images/cart-white-2.png" alt="shopping-cart icon"></a>
-
+        <a
+          class="shopping-cart-container"
+          href="cart.html"
+          aria-label="go to cart"
+        >
+          <img
+            class="shopping-cart"
+            src="assets/images/cart-white-2.png"
+            alt="shopping-cart icon"
+        /></a>
       </nav>
     </header>
 
     <main>
-
       <ul class="breadcrumbs" aria-label="breadcrumb-navigation">
-
-        <li><a href="index.html" aria-label="navigation back to home-page">home</a></li>
-        <li><a href="products.html" aria-label="navigation back to products-page">products</a></li>
-        <li><a href="product-description.html" 
-        aria-label="navigation back to previous product">product-description</a></li>
-        <li><a href="cart.html" aria-label="navigation back to cart">cart</a></li>
-        <li class="active">
-          <a href="checkout.html" aria-label="you are on the checkout page">checkout</a>
+        <li>
+          <a href="index.html" aria-label="navigation back to home-page"
+            >home</a
+          >
         </li>
-
+        <li>
+          <a href="products.html" aria-label="navigation back to products-page"
+            >products</a
+          >
+        </li>
+        <li>
+          <a
+            href="product-description.html"
+            aria-label="navigation back to previous product"
+            >product-description</a
+          >
+        </li>
+        <li>
+          <a href="cart.html" aria-label="navigation back to cart">cart</a>
+        </li>
+        <li class="active">
+          <a href="checkout.html" aria-label="you are on the checkout page"
+            >checkout</a
+          >
+        </li>
       </ul>
 
       <section id="section-container-checkout" class="section-container">
-        
         <h1 class="h1" tabindex="0">Card details</h1>
 
         <form class="form-checkout" id="checkout-card-details">
-
-          <label id="card-name-label" for="card-name"><span>name on card:</span></label>
-          <input type="text" id="card-name" name="card-name" required aria-required="true">
-          <label id="card-number-label" for="card-number"><span>credit card number:</span></label>
-          <input type="number" id="card-number" name="card-number" min="1" max="999999999999" required aria-required="true">
-          <label id="card-expiry-label" for="card-expiry"><span>expiry date:</span></label>
+          <label id="card-name-label" for="card-name"
+            ><span>name on card:</span></label
+          >
+          <input
+            type="text"
+            id="card-name"
+            name="card-name"
+            required
+            aria-required="true"
+          />
+          <label id="card-number-label" for="card-number"
+            ><span>credit card number:</span></label
+          >
+          <input
+            type="number"
+            id="card-number"
+            name="card-number"
+            min="1"
+            max="999999999999"
+            required
+            aria-required="true"
+          />
+          <label id="card-expiry-label" for="card-expiry"
+            ><span>expiry date:</span></label
+          >
           <label id="cvv-cvc-label" for="card-cvv-cvc">cvv/cvc:</label>
-          <input type="month" id="card-expiry" name="card-expiry" required aria-required="true">
-          <input type="number" id="card-cvv-cvc" name="card-cvv-cvc" min="100" max="999" required aria-required="true">
-
+          <input
+            type="month"
+            id="card-expiry"
+            name="card-expiry"
+            required
+            aria-required="true"
+          />
+          <input
+            type="number"
+            id="card-cvv-cvc"
+            name="card-cvv-cvc"
+            min="100"
+            max="999"
+            required
+            aria-required="true"
+          />
 
           <!-- <input type="submit" value="Finish Order" id="submit-checkout"> -->
           <button id="submit-card-details" class="submit-checkout">
-            <a id="a-card-submit" class="a-checkout" href="checkout-filled.html" aria-label="submit card details">submit</a>
+            <a
+              id="a-card-submit"
+              class="a-checkout"
+              href="checkout-filled.html"
+              aria-label="submit card details"
+              >submit</a
+            >
           </button>
-
         </form>
-
       </section>
-
     </main>
 
     <footer>
@@ -75,8 +134,7 @@
         <a href="site-placeholder.html">about us</a>
         <a href="site-placeholder.html">customer service</a>
         <a href="site-placeholder.html">membership</a>
-      </div> 
+      </div>
     </footer>
-
   </body>
 </html>

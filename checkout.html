@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,68 +9,149 @@
   </head>
 
   <body>
-
     <header>
       <nav class="header-content">
-
-        <a class="logo" href="index.html"><img src="assets/images/rainydays-logo.png" alt="rainydays logo"></a>
-        <a href="products.html">products</a>
+        <a class="logo" href="index.html"
+          ><img src="assets/images/rainydays-logo.png" alt="rainydays logo"
+        /></a>
+        <a class="header-link" href="products.html">products</a>
 
         <div class="searchbar-div" role="search" tabindex="0">
-          <p class="searchbar-placeholder">search between thousands of products (placeholder)</p>
-          <img class="search-icon" src="assets/images/search.png" alt="search-icon">
+          <p class="searchbar-placeholder">search</p>
+          <img
+            class="search-icon"
+            src="assets/images/search.png"
+            alt="search-icon"
+          />
         </div>
 
-        <a class="shopping-cart-container" href="cart-page.html" aria-label="go to cart">
-        <img class="shopping-cart" src="assets/images/cart-white-2.png" alt="shopping-cart icon"></a>
-
+        <a
+          class="shopping-cart-container"
+          href="cart.html"
+          aria-label="go to cart"
+        >
+          <img
+            class="shopping-cart"
+            src="assets/images/cart-white-2.png"
+            alt="shopping-cart icon"
+        /></a>
       </nav>
     </header>
 
     <main>
-
       <ul class="breadcrumbs" aria-label="breadcrumb-navigation">
-
-        <li><a href="index.html" aria-label="navigation back to home-page">home</a></li>
-        <li><a href="products.html" aria-label="navigation back to products-page">products</a></li>
-        <li><a href="product-description.html" 
-        aria-label="navigation back to previous product">product-description</a></li>
-        <li><a href="cart.html" aria-label="navigation back to cart">cart</a></li>
-        <li class="active">
-          <a href="checkout.html" aria-label="you are on the checkout page">checkout</a>
+        <li>
+          <a href="index.html" aria-label="navigation back to home-page"
+            >home</a
+          >
         </li>
-
+        <li>
+          <a href="products.html" aria-label="navigation back to products-page"
+            >products</a
+          >
+        </li>
+        <li>
+          <a
+            href="product-description.html"
+            aria-label="navigation back to previous product"
+            >product-description</a
+          >
+        </li>
+        <li>
+          <a href="cart.html" aria-label="navigation back to cart">cart</a>
+        </li>
+        <li class="active">
+          <a href="checkout.html" aria-label="you are on the checkout page"
+            >checkout</a
+          >
+        </li>
       </ul>
 
       <section id="section-container-checkout" class="section-container">
-
         <h1 class="h1" tabindex="0">Checkout</h1>
 
         <form class="form-checkout">
-
           <label class="name-label" for="name">name:</label>
           <label class="lastname-label" for="lastname">last name:</label>
-          <input type="text" id="name" name="name" required aria-required="true">
-          <input type="text" id="lastname" name="lastname" required aria-required="true">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-required="true"
+          />
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            required
+            aria-required="true"
+          />
 
           <label class="email-label" for="email">e-mail:</label>
-          <input type="email" id="email" name="email" required aria-required="true">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-required="true"
+          />
 
           <label class="country-label" for="country">country:</label>
           <label class="city-label" for="city">city:</label>
-          <input type="text" id="country" name="country" required aria-required="true">
-          <input type="text" id="city" name="city" required aria-required="true">
+          <input
+            type="text"
+            id="country"
+            name="country"
+            required
+            aria-required="true"
+          />
+          <input
+            type="text"
+            id="city"
+            name="city"
+            required
+            aria-required="true"
+          />
 
           <label class="address-label" for="address">address:</label>
-          <label class="state-or-county-label" for="state-or-county">state/county:</label>
-          <input type="text" id="address" name="address" required aria-required="true">
-          <input type="text" id="state-or-county" name="state-or-county" required aria-required="true">
+          <label class="state-or-county-label" for="state-or-county"
+            >state/county:</label
+          >
+          <input
+            type="text"
+            id="address"
+            name="address"
+            required
+            aria-required="true"
+          />
+          <input
+            type="text"
+            id="state-or-county"
+            name="state-or-county"
+            required
+            aria-required="true"
+          />
 
           <label class="zipcode-label" for="zipcode">zip-code:</label>
-          <label class="payment-option-label" for="payment-option">payment-option:</label>
-          <input type="number" id="zipcode" name="zipcode" min="1" max="999999" required aria-required="true">
-          
-          <select class="payment-option" name="payment-option" id="payment-option">
+          <label class="payment-option-label" for="payment-option"
+            >payment-option:</label
+          >
+          <input
+            type="number"
+            id="zipcode"
+            name="zipcode"
+            min="1"
+            max="999999"
+            required
+            aria-required="true"
+          />
+
+          <select
+            class="payment-option"
+            name="payment-option"
+            id="payment-option"
+          >
             <option value="visa">visa</option>
             <option value="mastercard">mastercard</option>
             <option value="paypal">paypal</option>
@@ -78,13 +159,15 @@
 
           <!-- <input type="submit" value="Finish Order" id="submit-checkout"> -->
           <button class="submit-checkout">
-            <a class="a-checkout" href="card-details.html" aria-label="go to card details">card details</a>
+            <a
+              class="a-checkout"
+              href="card-details.html"
+              aria-label="go to card details"
+              >card details</a
+            >
           </button>
-
         </form>
-
       </section>
-
     </main>
 
     <footer>
@@ -93,8 +176,7 @@
         <a href="site-placeholder.html">about us</a>
         <a href="site-placeholder.html">customer service</a>
         <a href="site-placeholder.html">membership</a>
-      </div> 
+      </div>
     </footer>
-
   </body>
 </html>
