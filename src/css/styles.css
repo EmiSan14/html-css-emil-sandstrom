@@ -739,6 +739,9 @@ h3 {
 
 #button-p-d-text {
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #sizes:hover,
