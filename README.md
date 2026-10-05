@@ -28,6 +28,8 @@ Fictional storefront page from start page to successful purchase and all pages n
 HTTPS:
 https://github.com/EmiSan14/html-css-emil-sandstrom.git
 
+or
+
 ```bash
 gh repo clone EmiSan14/html-css-emil-sandstrom
 ```
@@ -38,4 +40,4 @@ gh repo clone EmiSan14/html-css-emil-sandstrom
 
 ## Contact
 
-[E-Mail](emiloskar14@outlook.com)
+- E-Mail: emiloskar14@outlook.com
